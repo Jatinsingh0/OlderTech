@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+.leftArrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+
+.titleWrapper {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1c1c28;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1; /* Ensures content is centered vertically */
+    text-align: center;
+}
+
+
+.imageWrapper {
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.textSection {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #1c1c28;
+    line-height: 1.5;
+}
+
+
+.buttonWrapper {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.checkStatusButton {
+    width: 100%;
+    background-color: #025add;
+    color: white;
+    padding: 16px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.checkStatusButton:hover {
+    background-color: #0043a6;
+}

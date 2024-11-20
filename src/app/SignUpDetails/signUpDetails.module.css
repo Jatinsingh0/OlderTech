@@ -1,25 +1,26 @@
-/* General container styling */
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: #f4f4f4; /* Light background color */
+  background-color: #f4f4f4; 
   margin: 0;
   padding: 0;
 }
 
-/* Header Section */
+ /* Header Section */
 .header {
   width: 100%;
-  height: 150.6px; /* Fixed height */
-  background-color: #025add; /* Background color for header */
+  max-width: 400px;
+  height: 150.6px; 
+  background-color: #025add;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
+  align-items: flex-start; 
+  padding-left: 20px; 
+
 }
 
 .title {
@@ -34,10 +35,10 @@ color: #fff;
 }
 
 .loginPrompt {
-  font-size: 12px;
-  margin-top: 8px;
-  color: white;
-  line-height: 19.5px;
+font-size: 12px;
+margin-top: 8px;
+color: white;
+line-height: 19.5px;
 }
 
 .loginLink {
@@ -54,7 +55,7 @@ color: #fff;
   background: white;
   border-radius: 8px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  margin-top: 20px; /* Adds spacing below the header */
+  margin-top: 20px; 
   padding: 30px;
 }
 
@@ -92,22 +93,22 @@ border-radius: 12px;
 }
 
 .buttonWrapper {
-  width: 100%; /* Ensure the button takes the full width */
-  margin-top: 20px; /* Adds spacing before the button */
+  width: 100%;
+  margin-top: 20px;
 }
 
 /* Submit Button */
 .submitButton {
   background-color: #025add;
   color: white;
-  padding: 16px 0; /* More padding for better height */
+  padding: 16px 0;
   border: none;
   border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
   font-weight: bold;
   transition: background-color 0.3s ease;
-  width: 100%; /* Full width */
+  width: 100%; 
 }
 
 .submitButton:hover {

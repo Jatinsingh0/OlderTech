@@ -20,7 +20,7 @@ const VerifyPhone = () => {
       {/* Cross Icon */}
       <Link href="/SignUpDetails">
       <div className={styles.crossIcon}>
-        <span>&#10005;</span> {/* X symbol */}
+        <span>&#10005;</span> 
       </div>
       </Link>
 

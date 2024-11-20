@@ -56,7 +56,7 @@ const VerifyOTP = () => {
 
       {/* Verify OTP Button */}
       <div className={styles.buttonWrapper}>
-        <Link href="/VerifyOTP">
+        <Link href="/EmailVerify">
           <button className={styles.sendOtpButton}>Verify OTP</button>
         </Link>
       </div>

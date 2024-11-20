@@ -63,8 +63,8 @@ border-radius: 12px;
   } */
   
   .buttonWrapper {
-    margin-top: auto; /* Push the button to the bottom */
-    width: 100%; /* Ensure the wrapper takes full width */
+    margin-top: auto; 
+    width: 100%; 
   }
   
   /* Send OTP Button */
@@ -77,7 +77,7 @@ border-radius: 12px;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s;
-    width: 100%; /* Full width */
+    width: 100%; 
   }
   
   .sendOtpButton:hover {

@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./signUp.module.css";
+import Link from 'next/link';
 
 const SignUp = () => {
   return (
@@ -8,7 +9,7 @@ const SignUp = () => {
       <div className={styles.header}>
         <p className={styles.title}>SignUp</p>
         <p className={styles.loginPrompt}>
-          Already have an Account? <span className={styles.loginLink}>Login</span>
+          Already have an Account? <Link href="/login"><span className={styles.loginLink}>Login</span></Link>
         </p>
       </div>
 
