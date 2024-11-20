@@ -1,0 +1,99 @@
+/* General container */
+.container {
+    position: relative;
+    height: 100vh;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Cross Icon */
+  .crossIcon {
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    color: #1c1c28;
+  }
+  
+  /* Text Styling */
+  .verifyText {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #1c1c28;
+    margin-bottom: 50px;
+  }
+  
+  /* OTP Input Boxes Styling */
+  .otpContainer {
+    display: flex;
+    justify-content: left;
+    gap: 30px; /* Adds spacing between the OTP boxes */
+    margin-bottom: 50px; /* Adds space before the button */
+  }
+  
+  .otpInput {
+    width: 60px; /* Small size for each box */
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  .otpInput:focus {
+    border-color: #025add;
+  }
+  
+  .resendWrapper {
+    text-align: left;
+    margin-bottom: 30px; /* Adds space before the button */
+  }
+  
+  .resendText {
+    font-size: 14px;
+    color: #808080;
+
+  }
+  
+  .resendLink {
+    color: #808080;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .resendLink:hover {
+    color: #0043a6;
+  }
+  
+  /* Button Wrapper */
+  .buttonWrapper {
+    margin-top: auto; /* Push the button to the bottom */
+    width: 100%; /* Ensure the wrapper takes full width */
+  }
+  
+  /* Send OTP Button */
+  .sendOtpButton {
+    background-color: #025add;
+    color: white;
+    border: none;
+    padding: 16px 0;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Full width */
+  }
+  
+  .sendOtpButton:hover {
+    background-color: #0043a6;
+  }
+  

@@ -1,0 +1,132 @@
+/* General container styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #f4f4f4; /* Light background color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Section */
+.header {
+  width: 100%;
+  height: 150.6px; /* Fixed height */
+  background-color: #025add; /* Background color for header */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.title {
+font-size: 23.91px;
+font-weight: 700;
+line-height: 31.13px;
+letter-spacing: 0.19922812283039093px;
+text-align: left;
+text-decoration-skip-ink: none;
+color: #fff;
+
+}
+
+.loginPrompt {
+  font-size: 12px;
+  margin-top: 8px;
+  color: white;
+  line-height: 19.5px;
+}
+
+.loginLink {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Form Wrapper (Below Header) */
+.formWrapper {
+  width: 90%;
+  max-width: 400px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Adds spacing below the header */
+  padding: 30px;
+}
+
+/* Form Styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.inputField {
+  padding: 10px;
+  border: 1px solid #ddd;
+  height: 51.25px;
+padding: 9.56px 10px ;
+border-radius: 12px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.inputField:focus {
+  border-color: #025add;
+}
+
+.buttonWrapper {
+  width: 100%; /* Ensure the button takes the full width */
+  margin-top: 20px; /* Adds spacing before the button */
+}
+
+/* Submit Button */
+.submitButton {
+  background-color: #025add;
+  color: white;
+  padding: 16px 0; /* More padding for better height */
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Full width */
+}
+
+.submitButton:hover {
+  background-color: #0043a6;
+}
+
+/* Terms and Privacy Section */
+.termsContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+}
+
+.termsLabel {
+  font-size: 12px;
+  color: #555;
+}
