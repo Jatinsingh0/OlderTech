@@ -1,0 +1,139 @@
+/* General Styling */
+.container {
+    background-color: #025add;
+    width: 100%;
+    /* height: 100vh; */
+    overflow-y: auto;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: #025add;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .headerIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menuIcon {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+  }
+  
+  .userIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .headerText {
+    margin: 35px 0px;
+    text-align: left;
+  }
+  
+  .welcome {
+    font-size: 40px;
+    color: #fff;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #ddd;
+    margin-top: 5px;
+  }
+  
+  /* Module Container */
+  .moduleContainer {
+    margin-top: 10px;
+    position: relative;
+    height: 626px; 
+  }
+  
+  .moduleBox {
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    padding: 20px; /* Adjusted padding for better alignment */
+    background-color: #fff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .box1 {
+    background: #21D1CC;
+    z-index: 1;
+    top: 0;
+  }
+  
+  .box2 {
+    background: #FFC4DD;
+    z-index: 2;
+    top: -20px;
+  }
+  
+  .box3 {
+    background: #7F6CFF;
+    z-index: 3;
+    top: -40px;
+  }
+  
+  .box4 {
+    background: #B9FF66;
+    z-index: 4;
+    top: -60px;
+    border-radius: 30px;
+  }
+  
+  .moduleLeft {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center align horizontally */
+    gap: 10px; /* Same gap as between viewAll and completed */
+  }
+  
+  .moduleIcon {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .moduleTitle {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 33.6px;
+  }
+  
+  .moduleRight {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    gap: 20px; /* Add a gap between viewAll and completed */
+  }
+  
+  .viewAll {
+    cursor: pointer;
+    font-size: 14px;
+    color: #000000;
+    line-height: 19.6px;
+  }
+  
+  .completed {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 33.6px;
+  }
+  
