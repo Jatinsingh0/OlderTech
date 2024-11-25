@@ -13,7 +13,7 @@
   /* Header Section */
     .header {
       width: 100%;
-      max-width: 400px;
+      /* max-width: 400px; */
       height: 150.6px; 
       background-color: #025add;
       display: flex;
@@ -21,6 +21,7 @@
       justify-content: center;
       align-items: flex-start; 
       padding-left: 20px; 
+      margin-bottom: 50px;
 
     }
   

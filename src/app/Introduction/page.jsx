@@ -25,7 +25,7 @@ const Introduction = () => {
       </div>
 
       {/* Next Button */}
-      <Link href="/DocumentVerify" className={styles.nextButton}>
+      <Link href="/documentVerify" className={styles.nextButton}>
         <p>Next</p>
       </Link>
     </div>

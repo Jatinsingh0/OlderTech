@@ -33,7 +33,7 @@ const emailVerify = () => {
         </div>
 
         <div className={styles.buttonWrapper}>
-          <Link href="/EmailVerifyStatus">
+          <Link href="/emailVerifyStatus">
             <button className={styles.checkStatusButton}>
               Check the Status
             </button>

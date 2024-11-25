@@ -9,7 +9,7 @@ const login = () => {
   <div className={styles.header}>
     <p className={styles.title}>Welcome Back!</p>
     <p className={styles.loginPrompt}>
-      Don’t have an account? <Link href="/SignUp"><span className={styles.loginLink}>SignUp</span></Link>
+      Don’t have an account? <Link href="/signup"><span className={styles.loginLink}>SignUp</span></Link>
     </p>
   </div>
 
@@ -63,7 +63,7 @@ const login = () => {
     </div>
 
     {/* Forgot Password */}
-    <Link href="/ForgetPassword">
+    <Link href="/forgetPassword">
     <div className={styles.forgotPassword}>
       Forgot your Password?
     </div>

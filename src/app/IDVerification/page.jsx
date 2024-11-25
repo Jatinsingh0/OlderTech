@@ -69,7 +69,7 @@ const IdentityVerification = () => {
         Please upload your driver's license or passport.
       </p>
 
-      <Link href="/DocumentVerify" className={styles.nextButton}>
+      <Link href="/documentVerify" className={styles.nextButton}>
         <p>Next</p>
       </Link>
     </div>

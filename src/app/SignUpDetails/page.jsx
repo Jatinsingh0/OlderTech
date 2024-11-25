@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './signUpDetails.module.css';
 import Link from 'next/link';
 
-const SignUpDetails = () => {
+const signupdetails = () => {
   return (
     <div className={styles.container}>
       {/* Header Section */}
@@ -53,7 +53,7 @@ const SignUpDetails = () => {
             />
           </div>
           <div className={styles.buttonWrapper}>
-            <Link href="/VerifyPhone">
+            <Link href="/verifyphone">
               <button type="submit" className={styles.submitButton}>Next →</button>
             </Link>
           </div>
@@ -70,4 +70,4 @@ const SignUpDetails = () => {
   );
 };
 
-export default SignUpDetails;
+export default signupdetails;

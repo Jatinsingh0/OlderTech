@@ -36,7 +36,7 @@ const emailVerifyStatus = () => {
 
         {/* Check Status Button */}
         <div className={styles.buttonWrapper}>
-           <Link href="/IDVerification">
+           <Link href="/idVerification">
            <button className={styles.checkStatusButton}>Next step :  Identity Verfication</button>
            </Link>
          </div>
