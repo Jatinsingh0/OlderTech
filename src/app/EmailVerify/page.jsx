@@ -6,7 +6,7 @@ const emailVerify = () => {
   return (
     <div className={styles.container}>
       {/* Arrow at Top Left */}
-      <Link href="/">
+      <Link href="/verifyPhone">
         <span className={styles.leftArrow}>&larr;</span>
       </Link>
 
@@ -18,7 +18,7 @@ const emailVerify = () => {
         {/* Image Section */}
         <div className={styles.imageWrapper}>
           <img
-            src="/usafety.png"
+            src="/olderTech.png"
             alt="Account Verification"
             className={styles.image}
           />

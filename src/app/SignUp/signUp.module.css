@@ -113,7 +113,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 0;
+    margin: 40px 0;
   }
   
   .line {
@@ -132,7 +132,7 @@
   .socialMedia {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
   }
   
   .socialIcon {
@@ -145,3 +145,28 @@
   .socialIcon:hover {
     transform: scale(1.1);
   }
+
+  /* Submit Button */
+.SignUpButton {
+  background-color: #025add;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  width: 100%; 
+}
+
+.SignUpButton:hover {
+  background-color: #0043a6;
+}
+
+/* Error Text */
+.errorText {
+  font-size: 12px;
+  color: red;
+  margin-top: 5px;
+}

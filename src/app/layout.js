@@ -18,7 +18,7 @@ const coHeadlineBold = localFont({
 });
 
 export const metadata = {
-  title: "U-Safety",
+  title: "OlderTech",
   description: "",
 };
 

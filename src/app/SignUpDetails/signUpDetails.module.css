@@ -1,3 +1,4 @@
+
 .container {
   display: flex;
   flex-direction: column;
@@ -9,19 +10,20 @@
   padding: 0;
 }
 
- /* Header Section */
-.header {
-  width: 100%;
-  max-width: 400px;
-  height: 150.6px; 
-  background-color: #025add;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start; 
-  padding-left: 20px; 
- margin-bottom: 50px;
-}
+/* Header Section */
+  .header {
+    width: 100%;
+    /* max-width: 400px; */
+    height: 150.6px; 
+    background-color: #025add;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    padding-left: 20px; 
+    margin-bottom: 50px;
+
+  }
 
 .title {
 font-size: 23.91px;
@@ -130,4 +132,10 @@ border-radius: 12px;
 .termsLabel {
   font-size: 12px;
   color: #555;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
 }

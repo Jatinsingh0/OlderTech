@@ -6,7 +6,7 @@ const emailVerifyStatus = () => {
   return (
     <div className={styles.container}>
       {/* Arrow at Top Left */}
-      <Link href="/">
+      <Link href="/verifyPhone">
         <span className={styles.leftArrow}>&larr;</span>
       </Link>
 
@@ -20,7 +20,7 @@ const emailVerifyStatus = () => {
         {/* Image Section */}
         <div className={styles.imageWrapper}>
           <img
-            src="/usafety.png"
+            src="/olderTech.png"
             alt="Account Verification"
             className={styles.image}
           />
@@ -30,14 +30,14 @@ const emailVerifyStatus = () => {
         <div className={styles.textSection}>
           <p>
           Your account has been verified!
-          Welcome to  U Safety!
+          Welcome to  OlderTech!
           </p>
         </div>
 
         {/* Check Status Button */}
         <div className={styles.buttonWrapper}>
-           <Link href="/idVerification">
-           <button className={styles.checkStatusButton}>Next step :  Identity Verfication</button>
+           <Link href="/">
+           <button className={styles.checkStatusButton}>Go to Profile</button>
            </Link>
          </div>
       </div>

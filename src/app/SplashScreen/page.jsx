@@ -5,15 +5,16 @@ import Image from "next/image";
 const SplashScreen = () => {
   return (
     <div className={styles.container}>
-      {/* Image Section */}
-      <Image
-        src="/usafety.png" 
-        alt="Splash Image"
-        layout="intrinsic"
-        width={500}
-        height={500}
-        className={styles.splashImage}
-      />
+      <div className={styles.imageWrapper}>
+        <Image
+          src="/olderTech.png" 
+          alt="Splash Image"
+          layout="intrinsic"
+          width={300}
+          height={500}
+          className={styles.splashImage}
+        />
+      </div>
     </div>
   );
 };

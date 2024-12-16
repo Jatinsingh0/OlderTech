@@ -110,7 +110,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 0;
+    margin: 30px 0;
   }
   
   .line {
@@ -129,7 +129,7 @@
   .socialMedia {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
   }
   
   .socialIcon {
@@ -149,7 +149,7 @@
     color: #025add;
     text-align: center;
     cursor: pointer;
-    margin-top: 15px;
+    margin: 30px 0;
   }
   
   .forgotPassword:hover {
