@@ -6,7 +6,7 @@ const emailVerifyStatus = () => {
   return (
     <div className={styles.container}>
       {/* Arrow at Top Left */}
-      <Link href="/verifyPhone">
+      <Link href="/VerifyPhone">
         <span className={styles.leftArrow}>&larr;</span>
       </Link>
 

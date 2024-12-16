@@ -31,7 +31,7 @@ const SignupDetails = () => {
     e.preventDefault();
     if (validateForm()) {
       // If valid, navigate to the next step
-      router.push('/verifyPhone');
+      router.push('/VerifyPhone');
     }
   };
 

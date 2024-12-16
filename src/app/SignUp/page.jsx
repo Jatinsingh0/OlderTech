@@ -26,7 +26,7 @@ const SignUp = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-      router.push('/signUpDetails');
+      router.push('/SignUpDetails');
     }
   };
 

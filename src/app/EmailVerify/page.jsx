@@ -6,7 +6,7 @@ const emailVerify = () => {
   return (
     <div className={styles.container}>
       {/* Arrow at Top Left */}
-      <Link href="/verifyPhone">
+      <Link href="/VerifyPhone">
         <span className={styles.leftArrow}>&larr;</span>
       </Link>
 
@@ -33,7 +33,7 @@ const emailVerify = () => {
         </div>
 
         <div className={styles.buttonWrapper}>
-          <Link href="/emailVerifyStatus">
+          <Link href="/EmailVerifyStatus">
             <button className={styles.checkStatusButton}>
               Check the Status
             </button>

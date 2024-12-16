@@ -18,7 +18,7 @@ const VerifyPhone = () => {
   return (
     <div className={styles.container}>
       {/* Cross Icon */}
-      <Link href="/signUpDetails">
+      <Link href="/SignUpDetails">
       <div className={styles.crossIcon}>
         <span>&#10005;</span> 
       </div>
@@ -45,7 +45,7 @@ const VerifyPhone = () => {
 
       {/* Send OTP Button */}
       <div className={styles.buttonWrapper}>
-        <Link href="/verifyOTP">
+        <Link href="/VerifyOTP">
           <button className={styles.sendOtpButton}>Send OTP</button>
         </Link>
       </div>
