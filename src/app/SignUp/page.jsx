@@ -4,7 +4,7 @@ import styles from "./signUp.module.css"
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
-const signup = () => {
+const SignUp = () => {
   const router = useRouter();
   const [formData, setFormData] = useState({ name: '', email: '', password: '' });
   const [errors, setErrors] = useState({});
@@ -112,4 +112,4 @@ const signup = () => {
   );
 };
 
-export default signup;
+export default SignUp;
