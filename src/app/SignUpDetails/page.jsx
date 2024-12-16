@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import styles from './signUpDetails.module.css';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 
 const SignupDetails = () => {
   const [formData, setFormData] = useState({
@@ -49,7 +50,7 @@ const SignupDetails = () => {
       <div className={styles.header}>
         <p className={styles.title}>Complete the details</p>
         <p className={styles.loginPrompt}>
-          Already have an Account? <span className={styles.loginLink}>Login</span>
+          Already have an Account? <Link href="/login"><span className={styles.loginLink}>Login</span></Link>
         </p>
       </div>
 
