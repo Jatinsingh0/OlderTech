@@ -63,7 +63,7 @@ const login = () => {
     </div>
 
     {/* Forgot Password */}
-    <Link href="/forgetPassword">
+    <Link href="/ForgetPassword">
     <div className={styles.forgotPassword}>
       Forgot your Password?
     </div>
