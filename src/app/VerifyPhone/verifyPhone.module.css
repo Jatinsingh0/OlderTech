@@ -69,7 +69,7 @@ border-radius: 12px;
   
   /* Send OTP Button */
   .sendOtpButton {
-    background-color: #025add;
+    background-color: #1A0D5F;
     color: white;
     border: none;
     padding: 16px 0;
@@ -81,6 +81,12 @@ border-radius: 12px;
   }
   
   .sendOtpButton:hover {
-    background-color: #0043a6;
+    background-color: #1A0D5F;
+  }
+  
+  .errorText {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
   }
   

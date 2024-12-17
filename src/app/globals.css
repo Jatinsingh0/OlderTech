@@ -1,20 +1,33 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter&family=Poppins:wght@500&display=swap');
 
 :root {
-  --font-co-headline-regular: "Co Headline Regular", sans-serif;
-  --font-co-headline-bold: "Co Headline Bold", sans-serif;
-  --font-co-headline-light: "Co Headline Light", sans-serif;
+  --font-co-headline-regular: "DM Sans", sans-serif; /* Changed to DM Sans */
+  --font-co-headline-bold: "Poppins", sans-serif; /* You can use Poppins or another font */
+  --font-co-headline-light: "Inter", sans-serif; /* Inter font for light */
+
+  --font-family-default: "DM Sans", sans-serif; /* Default font for the body */
+}
+
+/* Apply global font family to body */
+body {
+  font-family: var(--font-family-default); /* Apply DM Sans as default font */
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--bg);
+  color: var(--textColor);
 }
 
 h1 {
-  font-family: var(--font-co-headline-bold); /* Use bold font for headings */
+  font-family: var(--font-co-headline-bold); /* Poppins for headings */
 }
 
 p {
-  font-family: var(--font-co-headline-light); /* Use light font for paragraphs */
+  font-family: var(--font-co-headline-light); /* Inter for paragraphs */
 }
 
 button {
-  font-family: var(--font-co-headline-regular); /* Use regular font for buttons */
+  font-family: var(--font-co-headline-regular); /* DM Sans for buttons */
 }
 
 * {

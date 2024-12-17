@@ -50,7 +50,7 @@
   }
   
   .otpInput:focus {
-    border-color: #025add;
+    border-color: #1A0D5F;
   }
   
   .resendWrapper {
@@ -71,7 +71,7 @@
   }
   
   .resendLink:hover {
-    color: #0043a6;
+    color: #1A0D5F;
   }
   
   /* Button Wrapper */
@@ -82,7 +82,7 @@
   
   /* Send OTP Button */
   .sendOtpButton {
-    background-color: #025add;
+    background-color: #1A0D5F;
     color: white;
     border: none;
     padding: 16px 0;
@@ -94,7 +94,7 @@
   }
   
   .sendOtpButton:hover {
-    background-color: #0043a6;
+    background-color: #1A0D5F;
   }
   
   @media (max-width: 400px){

@@ -15,7 +15,7 @@
       width: 100%;
       /* max-width: 400px; */
       height: 150.6px; 
-      background-color: #025add;
+      background-color: #1A0D5F;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -26,7 +26,7 @@
     }
   
   .title {
-  font-size: 23.91px;
+  font-size: 26.91px;
   font-weight: 700;
   line-height: 31.13px;
   letter-spacing: 0.19922812283039093px;
@@ -46,17 +46,15 @@
   .loginLink {
     color: white;
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
   }
   
   /* Form Wrapper (Below Header) */
   .formWrapper {
-    width: 90%;
+    width: 100%;
     max-width: 400px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    
     padding: 30px;
   }
   
@@ -90,23 +88,7 @@
   }
   
   .inputField:focus {
-    border-color: #025add;
-  }
-  
-  .SignUpButton {
-    background-color: #025add;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  .SignUpButton:hover {
-    background-color: #0043a6;
+    border-color: #1A0D5F;
   }
   
   .divider {
@@ -148,7 +130,7 @@
 
   /* Submit Button */
 .SignUpButton {
-  background-color: #025add;
+  background-color: #1A0D5F;
   color: white;
   padding: 10px;
   border: none;
@@ -161,7 +143,7 @@
 }
 
 .SignUpButton:hover {
-  background-color: #0043a6;
+  background-color: #1A0D5F;
 }
 
 /* Error Text */

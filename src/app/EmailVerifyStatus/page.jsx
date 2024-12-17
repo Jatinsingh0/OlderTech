@@ -36,7 +36,7 @@ const emailVerifyStatus = () => {
 
         {/* Check Status Button */}
         <div className={styles.buttonWrapper}>
-           <Link href="/dashboard">
+           <Link href="/Dashboard">
            <button className={styles.checkStatusButton}>Go to Profile</button>
            </Link>
          </div>
