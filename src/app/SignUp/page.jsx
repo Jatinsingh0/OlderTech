@@ -92,18 +92,18 @@ const SignUp = () => {
         {/* Social Media Icons */}
         <div className={styles.socialMedia}>
           <img
-            src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/2048px-Facebook_f_logo_%282021%29.svg.png"
-            alt="Facebook"
+            src="instagram.svg"
+            alt="instagram"
             className={styles.socialIcon}
           />
           <img
-            src="/instagram.png"
-            alt="Instagram"
+            src="/google.svg"
+            alt="google"
             className={styles.socialIcon}
           />
           <img
-            src="/google.png"
-            alt="Google"
+            src="/facebook.svg"
+            alt="facebook"
             className={styles.socialIcon}
           />
         </div>

@@ -46,18 +46,18 @@ const login = () => {
     {/* Social Media Icons */}
     <div className={styles.socialMedia}>
       <img
-        src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/2048px-Facebook_f_logo_%282021%29.svg.png"
-        alt="Facebook"
-        className={styles.socialIcon}
-      />
-      <img
-        src="/instagram.png"
+        src="/instagram.svg"
         alt="Instagram"
         className={styles.socialIcon}
       />
       <img
-        src="/google.png"
+        src="/google.svg"
         alt="Google"
+        className={styles.socialIcon}
+      />
+      <img
+        src="facebook.svg"
+        alt="Facebook"
         className={styles.socialIcon}
       />
     </div>

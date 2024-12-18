@@ -154,7 +154,7 @@ const VerifyOTP = () => {
     const otpCode = otp.join(""); // Join OTP digits
 
     try {
-      const response = await fetch("/api/verify-otp", {
+      const response = await fetch("https://older-tech-jatinsingh0s-projects.vercel.app/api/verify-otp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, otp: otpCode }), // Pass email and OTP

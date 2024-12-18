@@ -37,7 +37,7 @@ const VerifyPhone = () => {
     setSuccess("");
 
     try {
-      const response = await fetch("/api/sendOtp", {
+      const response = await fetch("https://older-tech-jatinsingh0s-projects.vercel.app/api/sendOtp", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -84,7 +84,7 @@ const VerifyPhone = () => {
       {/* Input Field with Email Address */}
       <div className={styles.inputGroup}>
         <label htmlFor="email" className={styles.label}>
-          Email Address
+          email address
         </label>
         <input
           type="email"
@@ -106,7 +106,7 @@ const VerifyPhone = () => {
           disabled={!isValid || loading}
           onClick={sendOTP}
           style={{
-            backgroundColor: isValid ? "#025add" : "#cccccc",
+            backgroundColor: isValid ? "#1A0D5F" : "#cccccc",
             cursor: loading ? "not-allowed" : "pointer",
           }}
         >
