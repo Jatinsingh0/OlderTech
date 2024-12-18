@@ -37,7 +37,7 @@ const VerifyPhone = () => {
     setSuccess("");
 
     try {
-      const response = await fetch("https://older-tech-jatinsingh0s-projects.vercel.app/api/sendOtp", {
+      const response = await fetch("https://oldertech-jatinsingh0s-projects.vercel.app/api/sendOtp", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
